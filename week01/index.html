@@ -3,24 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD131-UDEOZOR WISDOM</title>
+    <title>WDD 131-Dynamic Web Fundamentals-UDEOZOR WISDOM</title>
+    <meta name="description" content="WDD 131 Dynamic Web Fundamentals student page by Udeozor Wisdom featuring personal information, web development resources, and learning projects.">
+    <meta name="author" content="UDEOZOR WISDOM">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>WDD131 - UDEOZOR WISDOM</h1>
+        <span class="heading">WDD131:FUNDAMENTAL WEB DYNAMIC</span>
+        <nav>
+            <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+            <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scripture</a></li>
+            <li><a href="#">Final Project</a></li>
+        </nav>
     </header>
     <main>
-        <section>
-            <h2>Welcome to WDD131 - UDEOZOR WISDOM</h2>
-            <p>This is the homepage for the WDD131 course. Here you will find resources, assignments, and information related to the course.</p>
+        <h1>WISDOM UDEOZOR</h1>
+        <section class="container">
+            <aside class="right"> 
+                <h2 class="about-me">About Me</h2>
+                <div class="about-right">
+                    <img src="./images/profile.jfif" alt="profile-picture">
+                    <p>I am an Web developer and cybersecurity enthusiast passionate about building intelligent systems and solving complex security challenges. My work focuses on combining artificial intelligence, cybersecurity, and practical technology solutions to create impactful digital experiences.I have a strong interest in security awareness, cyber defense, and hands-on technical education. I am currently a student of Byupathway, developing projects that include cybersecurity training programs, interactive security simulations, and scenario-based learning platforms designed to help individuals and organizations better understand digital threats.Beyond development, I am driven by curiosity, continuous learning, and the desire to simplify complex technology for others. My goal is to contribute to building safer digital environments while empowering people with the knowledge and tools needed to navigate the modern technological landscape.</p>
+                </div>
+                <h2>Nigeria</h2>
+                <hr>
+                <div class="about-left">
+                    <img src="./images/nigeria.jfif" alt="nigeria">
+                    <p>I am from Nigeria, a vibrant country located in West Africa and is the most populous nation on the African continent. Known for its rich cultural diversity, Nigeria is home to over 250 ethnic groups, including the Hausa, Yoruba, and Igbo. The country's capital city is Abuja, while Lagos serves as its largest city and economic hub.Nigeria has a dynamic economy driven by industries such as oil and gas, agriculture, technology, entertainment, and trade. It is also globally recognized for Nollywood, one of the largest film industries in the world, and for its influential music scene that has produced internationally acclaimed artists.With its diverse cultures, languages, traditions, and entrepreneurial spirit, Nigeria continues to play a significant role in Africa's economic, cultural, and creative development.
+</p>
+                </div>
+            </aside>
+            <aside class="left">
+                <h2 class="about-me" >Web Dev Resources</h2>
+                <ul>
+                    <li><a href="https://dev.to">Dev. to Community</a></li>
+                    <li><a href="https://www.smashingmagazine.com">Smashing Magazine</a></li>
+                    <li><a href="https://css-tricks.com">CSS Tricks</a></li>
+                    <li><a href="https://www.w3schools.com">W3 Schools</a></li>
+                    <li><a href="https://www.udemy.com/">Udemy</a></li>
+                    <li><a href="https://sqi.edu.ng">SQI College of ICT</a></li>
+                </ul>
+            </aside>
         </section>
-        <section>
-            <h2>Course Resources</h2>
-            <ul>
-                <li><a href="syllabus.html">Course Syllabus</a></li>
-                <li><a href="assignments.html">Assignments</a></li>
-                <li><a href="resources.html">Additional Resources</a></li>
-            </ul>
-        </section>
+    </main>
+    <footer>
+        <!-- <p>&copy;2026-<small>UDEOZOR WISDOM</small></p>` -->
+        <p><span id="currentyear"></span></p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
