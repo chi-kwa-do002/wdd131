@@ -9,6 +9,9 @@
     --font-family:"Roboto", sans-serif;
 }
 /* Header styling */
+header{
+    font-size: medium;
+}
 #course-title{
     text-align: center;
     background-color: rgb(26, 72, 91);
@@ -21,7 +24,7 @@ h1{
     text-align: center;
     margin-top: 2rem;
 }
-nav{
+nav ul{
     display: grid;
     grid-template-columns: repeat(4, auto);
     align-items: center;
@@ -29,17 +32,21 @@ nav{
     padding: 15px;
     background-color: rgb(42, 36, 36);
 }
-nav li{
+nav ul li{
     list-style: none;
 }
  nav li a{
     text-decoration: none;
     color: white;
 }
+nav ul li a:hover{
+    display: flex;
+    border-bottom: 1px solid white;
+}
 /* Header styling ends here */
 
 /* Main styling starts here */
-.container{
+main{
     display: grid;
     align-items: center;
     grid-template-columns: 2fr 1fr;
@@ -102,7 +109,7 @@ footer{
         gap: 10px;
     }
 
-    .container{
+    main{
         grid-template-columns: 1fr;
     }
 
