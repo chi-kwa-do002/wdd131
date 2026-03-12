@@ -9,7 +9,7 @@
     --font-family:"Roboto", sans-serif;
 }
 /* Header styling */
-.heading{
+#course-title{
     text-align: center;
     background-color: rgb(26, 72, 91);
     color: white;
@@ -59,10 +59,10 @@ aside{
     border: 1px solid gray;
     border-radius: 5px;
 }
-.right{
+.card{
     border: 1px solid black;
-    /* height: 70vh; */
     padding: 1rem;
+    border-radius: 5px;
 }
 .about-right img{
     float: right;
@@ -78,10 +78,6 @@ hr{
     margin: 10px;
     width: 90%;
     align-self: center;
-}
-.left{
-    /* height: 73vh; */
-    padding: 1rem;
 }
 ul{
     padding: 3rem;
@@ -114,6 +110,6 @@ footer{
     .about-left img{
         float: none;
         display: block;
-        margin: 10px auto;
+        margin: 5px auto;
     }
 }
